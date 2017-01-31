@@ -74,6 +74,11 @@ router.route('/users')
   *         in: formData
   *         required: true
   *         type: string
+  *       - name:  memberType 
+  *         description: valida membership type
+  *         in: formData
+  *         required: true
+  *         type: string
    *     responses:
    *       200:
    *         description: Email sent

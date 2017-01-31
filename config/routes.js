@@ -1,7 +1,7 @@
 
 exports.setupRoutesAndVersions = function (app) {
   var ROUTES = {
-    'Authentications': '/users',
+    'Users': '/users',
   }
 
   var VERSIONS = { 'Pre-Production': '/v0' }
