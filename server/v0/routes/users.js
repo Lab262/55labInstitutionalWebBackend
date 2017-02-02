@@ -27,42 +27,42 @@ router.route('/users')
   *       - name: cpf
   *         description: user valid cpf
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name: rg
   *         description: user valid rg
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name: adress_label 
   *         description: user valid adress label
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  adress_number
   *         description: user valid adress number
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  adress_complement
   *         description: user valid adress complement
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  adress_neighbor
   *         description: user valid adress complement
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  adress_state
   *         description: user valid adress state
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  adress_country
   *         description: user valid adress country
   *         in: formData
-  *         required: true
+  *         required: false
   *         type: string
   *       - name:  email
   *         description: valid email
@@ -77,6 +77,11 @@ router.route('/users')
   *       - name:  memberType 
   *         description: valida membership type
   *         in: formData
+  *         required: true
+  *         type: string
+  *       - name: main-token
+  *         description: application level access token 
+  *         in: header
   *         required: true
   *         type: string
    *     responses:
