@@ -30,7 +30,7 @@ module.exports = {
   email: {
     username: "lab26255lab@gmail.com",
     password: "lab26255$$$",
-    emailReceipt: "luisfrvilela@gmail.com",
+    emailReceipt: "tmb0710@gmail.com",
     accountName: "55lab Inscrições",
     verifyEmailUrl: "api/v0/auth/verifyEmail",
     forgotPasswordConfirmedUrl: "api/v0/auth/forgotPasswordConfirmed"

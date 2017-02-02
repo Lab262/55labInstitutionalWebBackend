@@ -41,6 +41,7 @@
     "jsinspect": "^0.8.0",
     "mocha": "^3.0.2",
     "sinon": "1.17.4",
-    "sinon-chai": "2.8.0"
+    "sinon-chai": "2.8.0",
+    "to-csv": "github:jwerle/to-csv"
   }
 }
