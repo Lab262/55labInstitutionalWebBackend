@@ -30,7 +30,8 @@
     "sequelize": "^3.12.2",
     "sequelize-cli": "^2.1.0",
     "swagger-jsdoc": "^1.8.1",
-    "xoauth2": "^1.2.0"
+    "xoauth2": "^1.2.0",
+    "to-csv": "github:jwerle/to-csv"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -41,7 +42,6 @@
     "jsinspect": "^0.8.0",
     "mocha": "^3.0.2",
     "sinon": "1.17.4",
-    "sinon-chai": "2.8.0",
-    "to-csv": "github:jwerle/to-csv"
+    "sinon-chai": "2.8.0"
   }
 }
